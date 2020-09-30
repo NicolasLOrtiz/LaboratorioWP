@@ -1,0 +1,16 @@
+/*
+ Theme Name:   TECK
+ Theme URI:    https://github.com/NicolasLOrtiz/
+ Description:  Twenty Fifteen Child Theme
+ Author:       Nícolas Ortiz
+ Author URI:   https://github.com/NicolasLOrtiz/
+ Template:     twentynineteen
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twentynineteenchild
+*/
+body {
+    background-color: grey !important;
+}
