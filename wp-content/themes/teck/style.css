@@ -11,3 +11,56 @@
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
  Text Domain:  twentynineteenchild
 */
+.site-description {
+    color: #232323;
+    font-style: italic;
+}
+
+.image-filters-enabled .category-desenvolvimento-web .post-thumbnail:before,
+.image-filters-enabled .category-desenvolvimento-web .post-thumbnail:after {
+    display: none;
+}
+
+.image-filters-enabled .category-desenvolvimento-web .post-thumbnail .post-thumbnail-inner {
+    filter: none;
+}
+
+.entry .entry-content .wp-block-quote.is-large cite,
+.entry .entry-content .wp-block-quote.is-large footer,
+.entry .entry-content .wp-block-quote.is-style-large cite,
+.entry .entry-content .wp-block-quote.is-style-large footer {
+    font-size: 30px;
+    font-style: italic;
+    color: turquoise;
+}
+
+.entry .entry-content .wp-block-quote.is-large p,
+.entry .entry-content .wp-block-quote.is-style-large p {
+    font-size: 3em;
+}
+
+/* Modificação na Bio Autor */
+.author-bio .author-heading .avatar {
+    height: auto;
+    width: auto;
+    display: inline-block;
+}
+
+/* Menu secundário 
+.main-navigation+.main-navigation {
+    font-size: 0.7em;
+} */
+.menu-secondary-container ul {
+    font-size: 0.7em;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.menu-secondary-container p {
+    font-size: 0.7em;
+    display: inline-block;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
