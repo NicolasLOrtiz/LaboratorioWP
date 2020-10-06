@@ -1,0 +1,51 @@
+2020-10-05T18:48:05+00:00 CRITICAL syntax error, unexpected '}', em C:\Users\Xcalius\Local Sites\helloworld2\app\public\wp-content\themes\wprig\template-parts\content\entry.php, na linha 28
+
+2020-10-05T18:50:18+00:00 CRITICAL Uncaught BadMethodCallException: The template tag wp_rig()->display_related_posts() does not exist. in C:\Users\Xcalius\Local Sites\helloworld2\app\public\wp-content\themes\wprig\inc\Template_Tags.php:78
+Stack trace:
+#0 C:\Users\Xcalius\Local Sites\helloworld2\app\public\wp-content\themes\wprig\template-parts\content\entry_related.php(12): WP_Rig\WP_Rig\Template_Tags->__call('display_related...', Array)
+#1 C:\Users\Xcalius\Local Sites\helloworld2\app\public\wp-includes\template.php(732): require('C:\\Users\\Xcaliu...')
+#2 C:\Users\Xcalius\Local Sites\helloworld2\app\public\wp-includes\template.php(676): load_template('C:\\Users\\Xcaliu...', false, Array)
+#3 C:\Users\Xcalius\Local Sites\helloworld2\app\public\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#4 C:\Users\Xcalius\Local Sites\helloworld2\app\public\wp-content\themes\wprig\template-parts\content\entry.php(27): get_template_part('template-parts/...')
+#5 C:\Users\Xcalius\Local Sites\helloworld2\app\public\wp-includes\, em C:\Users\Xcalius\Local Sites\helloworld2\app\public\wp-content\themes\wprig\inc\Template_Tags.php, na linha 78
+
+2020-10-05T18:51:35+00:00 CRITICAL Uncaught BadMethodCallException: The template tag wp_rig()->display_related_posts() does not exist. in C:\Users\Xcalius\Local Sites\helloworld2\app\public\wp-content\themes\wprig\inc\Template_Tags.php:78
+Stack trace:
+#0 C:\Users\Xcalius\Local Sites\helloworld2\app\public\wp-content\themes\wprig\template-parts\content\entry_related.php(12): WP_Rig\WP_Rig\Template_Tags->__call('display_related...', Array)
+#1 C:\Users\Xcalius\Local Sites\helloworld2\app\public\wp-includes\template.php(732): require('C:\\Users\\Xcaliu...')
+#2 C:\Users\Xcalius\Local Sites\helloworld2\app\public\wp-includes\template.php(676): load_template('C:\\Users\\Xcaliu...', false, Array)
+#3 C:\Users\Xcalius\Local Sites\helloworld2\app\public\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#4 C:\Users\Xcalius\Local Sites\helloworld2\app\public\wp-content\themes\wprig\template-parts\content\entry.php(27): get_template_part('template-parts/...')
+#5 C:\Users\Xcalius\Local Sites\helloworld2\app\public\wp-includes\, em C:\Users\Xcalius\Local Sites\helloworld2\app\public\wp-content\themes\wprig\inc\Template_Tags.php, na linha 78
+
+2020-10-05T18:51:42+00:00 CRITICAL Uncaught BadMethodCallException: The template tag wp_rig()->display_related_posts() does not exist. in C:\Users\Xcalius\Local Sites\helloworld2\app\public\wp-content\themes\wprig\inc\Template_Tags.php:78
+Stack trace:
+#0 C:\Users\Xcalius\Local Sites\helloworld2\app\public\wp-content\themes\wprig\template-parts\content\entry_related.php(12): WP_Rig\WP_Rig\Template_Tags->__call('display_related...', Array)
+#1 C:\Users\Xcalius\Local Sites\helloworld2\app\public\wp-includes\template.php(732): require('C:\\Users\\Xcaliu...')
+#2 C:\Users\Xcalius\Local Sites\helloworld2\app\public\wp-includes\template.php(676): load_template('C:\\Users\\Xcaliu...', false, Array)
+#3 C:\Users\Xcalius\Local Sites\helloworld2\app\public\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#4 C:\Users\Xcalius\Local Sites\helloworld2\app\public\wp-content\themes\wprig\template-parts\content\entry.php(27): get_template_part('template-parts/...')
+#5 C:\Users\Xcalius\Local Sites\helloworld2\app\public\wp-includes\, em C:\Users\Xcalius\Local Sites\helloworld2\app\public\wp-content\themes\wprig\inc\Template_Tags.php, na linha 78
+
+2020-10-05T19:18:00+00:00 CRITICAL Uncaught Error: Call to undefined function WP_Rig\WP_Rig\Related_Posts\wp_rig() in C:\Users\Xcalius\Local Sites\helloworld2\app\public\wp-content\themes\wprig\inc\Related_Posts\Component.php:83
+Stack trace:
+#0 C:\Users\Xcalius\Local Sites\helloworld2\app\public\wp-includes\class-wp-hook.php(287): WP_Rig\WP_Rig\Related_Posts\Component->action_enqueue_navigation_script('')
+#1 C:\Users\Xcalius\Local Sites\helloworld2\app\public\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\Xcalius\Local Sites\helloworld2\app\public\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\Users\Xcalius\Local Sites\helloworld2\app\public\wp-includes\script-loader.php(1999): do_action('wp_enqueue_scri...')
+#4 C:\Users\Xcalius\Local Sites\helloworld2\app\public\wp-includes\class-wp-hook.php(287): wp_enqueue_scripts('')
+#5 C:\Users\Xcalius\Local Sites\helloworld2\app\public\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#6 C:\Users\Xcalius\Local Sites\helloworld2\app\pu, em C:\Users\Xcalius\Local Sites\helloworld2\app\public\wp-content\themes\wprig\inc\Related_Posts\Component.php, na linha 83
+
+2020-10-05T19:28:18+00:00 CRITICAL Uncaught Error: Call to undefined function WP_Rig\WP_Rig\Related_Posts\wp_rig() in C:\Users\Xcalius\Local Sites\helloworld2\app\public\wp-content\themes\wprig\inc\Related_Posts\Component.php:83
+Stack trace:
+#0 C:\Users\Xcalius\Local Sites\helloworld2\app\public\wp-includes\class-wp-hook.php(287): WP_Rig\WP_Rig\Related_Posts\Component->action_enqueue_related_posts_script('')
+#1 C:\Users\Xcalius\Local Sites\helloworld2\app\public\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\Xcalius\Local Sites\helloworld2\app\public\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\Users\Xcalius\Local Sites\helloworld2\app\public\wp-includes\script-loader.php(1999): do_action('wp_enqueue_scri...')
+#4 C:\Users\Xcalius\Local Sites\helloworld2\app\public\wp-includes\class-wp-hook.php(287): wp_enqueue_scripts('')
+#5 C:\Users\Xcalius\Local Sites\helloworld2\app\public\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#6 C:\Users\Xcalius\Local Sites\helloworld2\app, em C:\Users\Xcalius\Local Sites\helloworld2\app\public\wp-content\themes\wprig\inc\Related_Posts\Component.php, na linha 83
+
+2020-10-05T19:41:58+00:00 CRITICAL syntax error, unexpected '}', em C:\Users\Xcalius\Local Sites\helloworld2\app\public\wp-content\themes\wprig\inc\Related_Posts\Component.php, na linha 67
+

@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Contact Form 7 - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-09-04 00:41:16+0000\n"
+"PO-Revision-Date: 2020-10-03 13:50:02+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -594,6 +594,13 @@ msgstr[1] "Validação da configuração foi concluído. %s Formulário de conta
 msgid "Validate Configuration"
 msgstr "Validar configuração"
 
+#. translators: %s: number of contact forms
+#: admin/includes/config-validator.php:108
+msgid "Validate %s contact form now"
+msgid_plural "Validate %s contact forms now"
+msgstr[0] "Validar %s formulário"
+msgstr[1] "Validar %s formulários"
+
 #: admin/includes/config-validator.php:66
 msgid "You are not allowed to validate configuration."
 msgstr "Você não tem permissão para validar a configuração."
@@ -674,6 +681,10 @@ msgid "Akismet"
 msgstr "Akismet"
 
 #: modules/textarea.php:143 modules/text.php:239
+msgid "Text fields"
+msgstr "Campo de texto"
+
+#: modules/textarea.php:143 modules/text.php:239
 msgid "https://contactform7.com/text-fields/"
 msgstr "https://contactform7.com/text-fields/"
 
@@ -724,6 +735,10 @@ msgstr "Endereço de e-mail que o remetente digitou é inválido"
 #: modules/submit.php:65
 msgid "Label"
 msgstr "Label"
+
+#: modules/submit.php:55
+msgid "Submit button"
+msgstr "Botão enviar"
 
 #: modules/submit.php:55
 msgid "https://contactform7.com/submit-button/"
@@ -790,6 +805,10 @@ msgid "Spinbox"
 msgstr "Spinbox"
 
 #: modules/number.php:159
+msgid "Number fields"
+msgstr "Campos de número"
+
+#: modules/number.php:159
 msgid "https://contactform7.com/number-fields/"
 msgstr "https://contactform7.com/number-fields/"
 
@@ -828,6 +847,10 @@ msgstr "Tipos de arquivo aceitáveis"
 #: modules/file.php:247
 msgid "File size limit (bytes)"
 msgstr "Limite do tamanho do arquivo (bytes)"
+
+#: modules/file.php:222
+msgid "File uploading and attachment"
+msgstr "Envio de arquivos e anexos"
 
 #: modules/file.php:222
 msgid "https://contactform7.com/file-uploading-and-attachment/"
@@ -879,6 +902,10 @@ msgstr "Utilize este texto como um espaço reservado"
 #: modules/number.php:189
 msgid "Default value"
 msgstr "Valor padrão"
+
+#: modules/date.php:156
+msgid "Date field"
+msgstr "Campo de data"
 
 #: modules/date.php:156
 msgid "https://contactform7.com/date-field/"
@@ -938,6 +965,10 @@ msgstr "Campo obrigatório"
 #: modules/number.php:169 modules/number.php:172
 msgid "Field type"
 msgstr "Tipo de campo"
+
+#: modules/checkbox.php:230 modules/select.php:163
+msgid "Checkboxes, radio buttons and menus"
+msgstr "Caixas de seleção, botões de rádio e menus"
 
 #: modules/checkbox.php:230 modules/select.php:163
 msgid "https://contactform7.com/checkboxes-radio-buttons-and-menus/"
@@ -1036,6 +1067,10 @@ msgstr "Opções"
 #: modules/text.php:259 modules/number.php:184
 msgid "Name"
 msgstr "Nome"
+
+#: modules/acceptance.php:243
+msgid "Acceptance checkbox"
+msgstr "Caixa de seleção de aceite"
 
 #: modules/acceptance.php:243
 msgid "https://contactform7.com/acceptance-checkbox/"
@@ -1238,6 +1273,10 @@ msgstr "Você pode adicionar trechos de código aqui. Para mais detalhes veja %s
 msgid "https://contactform7.com/additional-settings/"
 msgstr "https://contactform7.com/additional-settings/"
 
+#: admin/includes/editor.php:194
+msgid "File attachments"
+msgstr "Anexos"
+
 #: admin/includes/editor.php:188
 msgid "Use HTML content type"
 msgstr "Usar tipo de conteúdo HTML"
@@ -1245,6 +1284,14 @@ msgstr "Usar tipo de conteúdo HTML"
 #: admin/includes/editor.php:186
 msgid "Exclude lines with blank mail-tags from output"
 msgstr "Excluir linhas com mail-tags em branco da saída"
+
+#: admin/includes/editor.php:181
+msgid "Message body"
+msgstr "Corpo da mensagem"
+
+#: admin/includes/editor.php:172
+msgid "Additional headers"
+msgstr "Cabeçalhos adicionais"
 
 #: includes/contact-form-template.php:40 admin/includes/editor.php:163
 msgid "Subject"
@@ -1399,6 +1446,10 @@ msgstr "https://contactform7.com/save-submitted-messages-with-flamingo/"
 #: admin/includes/welcome-panel.php:31
 msgid "https://contactform7.com/spam-filtering-with-akismet/"
 msgstr "https://contactform7.com/spam-filtering-with-akismet/"
+
+#: admin/includes/editor.php:129
+msgid "Setting up mail"
+msgstr "Configurando e-mail"
 
 #: admin/includes/editor.php:128
 msgid "https://contactform7.com/setting-up-mail/"

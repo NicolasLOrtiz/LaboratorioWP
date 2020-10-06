@@ -1,0 +1,15 @@
+{
+  "theme": {
+    "slug": "newrig",
+    "name": "New Rig",
+    "author": "Nicolas Ortiz"
+  },
+  "dev": {
+    "browserSync": {
+      "live": true,
+      "proxyURL": "teck.local",
+      "bypassPort": "8181",
+      "https": false
+    }
+  }
+}
