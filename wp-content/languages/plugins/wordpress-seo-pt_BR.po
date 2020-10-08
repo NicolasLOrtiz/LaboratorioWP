@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Yoast SEO - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-10-03 13:53:35+0000\n"
+"PO-Revision-Date: 2020-10-05 23:36:57+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -10,6 +10,52 @@ msgstr ""
 "X-Generator: GlotPress/3.0.0-alpha.2\n"
 "Language: pt_BR\n"
 "Project-Id-Version: Plugins - Yoast SEO - Stable (latest release)\n"
+
+#: inc/class-addon-manager.php:584
+msgid "Need support?"
+msgstr "Precisa de suporte?"
+
+#. translators: %1$s: expands to an opening anchor tag, %2$s: expands to a
+#. closing anchor tag
+#: admin/views/class-yoast-feature-toggles.php:196
+msgid "Disabling Yoast SEO's XML sitemaps will not disable WordPress' core sitemaps. In some cases, this %1$s may result in SEO errors on your site%2$s. These may be reported in Google Search Console and other tools."
+msgstr "Desativar os sitemaps criados pelo Yoast SEO não irá desativar os sitemaps gerados pelo WordPress. Em alguns casos, isso %1$spode resultar em erros de SEO em seu site%2$s. Estes erros poderão ser relatados no Google Search Console e em outras ferramentas."
+
+#. translators: %s translates to the Post Label in singular form
+#: languages/wordpress-seojs.php:302
+msgid "Return to your %s"
+msgstr "Voltar para %s"
+
+#. translators: %s translates to the Post Label in singular form
+#: languages/wordpress-seojs.php:298
+msgid "Make sure to save your %s for changes to take effect"
+msgstr "Certifique-se de salvar seu %s para que as alterações tenham efeito"
+
+#: admin/views/licenses.php:88
+msgid "Make your products stand out in Google"
+msgstr "Faça os seus produtos se destacarem no Google"
+
+#: admin/views/licenses.php:69
+msgid "Everything you need for Google News"
+msgstr "Tudo o que você precisa para o Google Notícias"
+
+#: admin/views/licenses.php:54
+msgid "Start ranking better for your videos"
+msgstr "Comece a posicionar melhor seus vídeos"
+
+#. translators: %s expands to the plugin version.
+#: admin/class-admin-init.php:217
+msgid "Read all about version %s here"
+msgstr "Leia tudo sobre a versão %s aqui"
+
+#. translators: %1$s expands to Yoast SEO, %2$s expands to the plugin version.
+#: admin/class-admin-init.php:205
+msgid "New in %1$s %2$s: "
+msgstr "Novidades do %1$s %2$s: "
+
+#: src/integrations/admin/link-count-tools-integration.php:123
+msgid "Calculation failed, please try again later."
+msgstr "O cálculo falhou, tente novamente mais tarde."
 
 #. translators: 1: Yoast SEO, 2: translated version of "Off"
 #: admin/views/class-yoast-feature-toggles.php:143
@@ -77,6 +123,10 @@ msgstr[1] "Após salvar, estas configurações será aplicada a todos os seus %1
 #: languages/wordpress-seojs.php:138
 msgid "Choose how your %1$s should be described by default in your site's schema.org markup. You can change these settings for individual %1$s."
 msgstr "Escolha como seu %1$s deve ser descrito por padrão na marcação do schema.org do seu site. Você pode alterar essas configurações para %1$s individuais."
+
+#: languages/wordpress-seojs.php:134
+msgid "Learn more about the schema settings"
+msgstr "Saiba mais sobre as configurações de Schema"
 
 #: languages/wordpress-seojs.php:131
 msgid "Schema settings"
@@ -1066,7 +1116,7 @@ msgstr "Tem feedback"
 
 #: languages/yoast-seo-js.php:463
 msgid "Content optimization:"
-msgstr "Otimização de conteúdo"
+msgstr "Otimização de conteúdo:"
 
 #. translators: %s expands to the score
 #: admin/statistics/class-statistics-service.php:216
@@ -1321,7 +1371,7 @@ msgstr "Frase-chave"
 #. to the article
 #: admin/views/tabs/metas/paper-content/media-content.php:44
 msgid "Please carefully consider the implications and %1$sread this post%2$s if you want more information about the impact of showing media in search results."
-msgstr "Favor considerar as implicações e %1$s ler este post %2$s se quiser saber mais informações sobre o impacto de mostrar arquivos de mídia nos resultados de busca. "
+msgstr "Considere atentamente as implicações e %1$sleia este artigo%2$s se quiser saber mais informações sobre o impacto de incluir os arquivos de mídia nos resultados de busca."
 
 #: admin/views/tabs/metas/paper-content/media-content.php:37
 msgid "By enabling this option, attachment URLs become visible to both your visitors and Google. To add value to your website, they should contain useful information, or they might have a negative impact on your ranking."
@@ -2301,7 +2351,7 @@ msgstr "Lista não ordenada"
 
 #: languages/wordpress-seojs.php:456
 msgid "Showing step items as an ordered list."
-msgstr "Mostrando itens como uma lista ordenada"
+msgstr "Exibindo passos como uma lista ordenada."
 
 #: languages/wordpress-seojs.php:453
 msgid "Showing step items as an unordered list"
@@ -2388,7 +2438,7 @@ msgstr "Gostaria de adicionar outra frase-chave?"
 
 #: languages/yoast-components.php:210
 msgid "image preview"
-msgstr "Pré-visualizar imagem"
+msgstr "prévia da imagem"
 
 #: languages/yoast-components.php:98
 msgid "Copied!"
@@ -2638,7 +2688,7 @@ msgstr "Você colocou um %1$s na lixeira."
 #. translators: %s is the plural version of the post type's name.
 #: admin/views/tabs/metas/paper-content/post-type-content.php:62
 msgid "Breadcrumb settings for %s archive"
-msgstr "Configurações do Breadcrumb para %s o arquivo "
+msgstr "Configurações de navegação estruturada para o arquivo por %s"
 
 #. translators: %s expands to the post type name.
 #. translators: %s is the plural version of the post type's name.
@@ -3186,7 +3236,7 @@ msgstr "Obter melhores resultados de pesquisa em buscas locais"
 #: languages/yoast-components.php:20
 #: admin/formatter/class-metabox-formatter.php:196
 msgid "Good results"
-msgstr "Bons resultados "
+msgstr "Bons resultados"
 
 #. translators: %s expands to Yoast SEO Premium
 #: languages/wordpress-seojs.php:316
@@ -3352,7 +3402,7 @@ msgstr "(Abre numa nova aba do navegador)"
 #. closing strong tag
 #: admin/statistics/class-statistics-service.php:210
 msgid "Posts %1$swithout%2$s a focus keyphrase"
-msgstr "Posts %1$ssem%2$s uma frase-chave em foco."
+msgstr "Posts %1$ssem%2$s uma frase-chave em foco"
 
 #: admin/statistics/class-statistics-service.php:77
 msgid "Hey, your SEO is doing pretty well! Check out the stats:"
@@ -3415,7 +3465,7 @@ msgstr ""
 #. help page, %3$s is the link closing tag.
 #: src/deprecated/admin/config-ui/fields/class-field-google-search-console-intro.php:31
 msgid "%1$s integrates with Google Search Console, a must-have tool for site owners. It provides you with information about the health of your site. Don't have a Google account or is your site not activated yet? Find out %2$show to connect Google Search Console to your site%3$s."
-msgstr "%1$s integra-se com o Google Search Console, ferramenta essencial para administradores de sites. Ela fornece informações sobre a saúde do seu site. Não têm uma conta Google ou seu site não está conectado na ferramenta? Veja %2$ scomo conectar o Google Search Console no seu site %3$s "
+msgstr "%1$s integra-se com o Google Search Console, ferramenta essencial para administradores de sites. Ela fornece informações sobre a saúde do seu site. Não têm uma conta Google ou seu site não está conectado na ferramenta? Veja %2$s como conectar o Google Search Console no seu site %3$s "
 
 #: admin/config-ui/fields/class-field-environment.php:24
 msgid "Option B: My site is under construction and should not be indexed"
@@ -4892,7 +4942,7 @@ msgstr "&laquo; Voltar para a página Ferramentas"
 #. translators: %1$s expands to Yoast SEO
 #: admin/pages/tools.php:43
 msgid "%1$s comes with some very powerful built-in tools:"
-msgstr "%1$s já vem com algumas ferramentas poderosas de fábrica"
+msgstr "%1$s já vem com algumas ferramentas poderosas de fábrica:"
 
 #: admin/pages/tools.php:31
 msgid "This tool allows you to quickly change important files for your SEO, like your robots.txt and, if you have one, your .htaccess file."
@@ -5107,7 +5157,7 @@ msgstr "Se este é o caso no seu site, você pode optar por desativá-lo (o que 
 #. yoast.com
 #: admin/views/tabs/metas/archives/help.php:11
 msgid "If you're running a one author blog, the author archive will be exactly the same as your homepage. This is what's called a %1$sduplicate content problem%2$s."
-msgstr "Se você estiver usando um site para um único autor, o arquivo de autor  será exatamente o mesmo que a sua página inicial. Isto é chamado de %1$sproblema de conteúdo duplicado%2$s"
+msgstr "Se você tiver apenas um autor em seu blog, o arquivo por autor será exatamente igual à sua página inicial. Isso é chamado de %1$sproblema de conteúdo duplicado%2$s."
 
 #: admin/views/tabs/metas/paper-content/date-archives-settings.php:16
 msgid "Date archives"
@@ -5153,7 +5203,7 @@ msgstr "Separador de Título"
 #. translators: %1$s expands to Yoast SEO
 #: admin/views/tabs/metas/paper-content/general/force-rewrite-title.php:18
 msgid "%1$s has auto-detected whether it needs to force rewrite the titles for your pages, if you think it's wrong and you know what you're doing, you can change the setting here."
-msgstr "%1$s detectou automaticamente quando é necessário forçar a reescrita dos títulos de suas páginas. Caso acredite que há algo errado, e se você sabe o que está fazendo, você pode modificar as configurações aqui. "
+msgstr "%1$s detectou automaticamente se é necessário forçar a reescrita dos títulos de suas páginas. Caso acredite que está errado e sabe o que está fazendo, você pode modificar as configurações aqui."
 
 #: admin/views/tabs/metas/paper-content/general/force-rewrite-title.php:14
 msgid "Force rewrite titles"
